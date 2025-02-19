@@ -1,13 +1,9 @@
 {
-  "functions": {
-    "src/app/api/rainCasts/route.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "version": 2,
   "crons": [
     {
-        "path": "/api/rainCasts",
-        "schedule": "15 6 * * *"
-      }
+      "path": "/api/rainCasts",
+      "schedule": "15 6 * * *"
+    }
   ]
 }
