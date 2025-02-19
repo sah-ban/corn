@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "src/app/api/rainCasts/route.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "crons": [
+    {
+        "path": "/api/rainCasts",
+        "schedule": "* * * * *"
+      }
+  ]
+}
