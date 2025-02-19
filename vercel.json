@@ -3,7 +3,7 @@
   "crons": [
     {
       "path": "/api/rainCasts",
-      "schedule": "15 6 * * *"
+      "schedule": "25 6 * * *"
     }
   ]
 }
